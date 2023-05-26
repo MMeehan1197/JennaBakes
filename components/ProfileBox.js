@@ -1,4 +1,5 @@
-import {Flex, Link, Image, Box} from "gestalt";
+import {Flex, Link, Box} from "gestalt";
+import Image from 'next/image';
 import 'gestalt/dist/gestalt.css';
 import React from "react";
 import utilStyles from "../styles/utils.module.css";
@@ -13,9 +14,11 @@ export default function ProfileBox() {
                 <Link href="/">
                     <Image
                     priority
-                    src="https://i.ibb.co/d0pQsJz/stock3.jpg"
+                    src="/images/Jenna.jpg"
                     className={utilStyles.borderCircle}
                     alt=""
+                    width={200}
+                    height={200}
                     />
                 </Link>
             </Box>
