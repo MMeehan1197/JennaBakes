@@ -33,7 +33,7 @@
     color: inherit;
   }
   
-  .paddingLeft {
+  .centerHorizontal {
     display: flex;
     flex-direction: column;
     align-items: center;
