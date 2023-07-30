@@ -4,7 +4,7 @@ import Link from 'next/link';
 import NavBarJenna from './navbar';
 import ProfileBox from './ProfileBox';
 
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Jenna Bakes!';
 
 export default function Layout({ children, home }) {
   return (
