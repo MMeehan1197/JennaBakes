@@ -2,7 +2,9 @@ import { Flex, Image, SegmentedControl, Box, Column, Text} from "gestalt";
 import 'gestalt/dist/gestalt.css';
 import React from "react";
 import Post from "./Post";
+import Blog from "./Blog";
 import HomePage from "./HomePage";
+import About from "./About";
 
 export default function NavBarJenna() {
     const [itemIndex, setItemIndex] = React.useState(0);
@@ -16,8 +18,8 @@ export default function NavBarJenna() {
   
     const content = [
       <HomePage/>,
-      'Here I will tell you about me I have been baking since I was a little girl with my mom. She taught me everything I need to know about measuring, mixing, combining, oven use and more.',
-      <Post/>, 
+      <About/>,
+      <Blog/>, 
       'Contact content',
     ];
   
